@@ -16,17 +16,17 @@ def viewQueue(queue):
         print('nothing to read from an empty queue')
 
 
-queue = [1, 2, 3]
+testQueue = [1, 2, 3]
 
-print(queue)
-enqueue(queue, 4)
-print(queue)
-dequeue(queue)
-print(queue)
-dequeue(queue)
-print(queue)
-dequeue(queue)
-print(queue)
-dequeue(queue)
-print(queue)
-dequeue(queue)
+print(testQueue)
+enqueue(testQueue, 4)
+print(testQueue)
+dequeue(testQueue)
+print(testQueue)
+dequeue(testQueue)
+print(testQueue)
+dequeue(testQueue)
+print(testQueue)
+dequeue(testQueue)
+print(testQueue)
+dequeue(testQueue)
