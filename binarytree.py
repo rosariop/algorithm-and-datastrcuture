@@ -43,11 +43,13 @@ def delete(root, content):
             parent.left = elementToDelete.right
         if parent.content < elementToDelete.content:
             parent.right = elementToDelete.right
+
     elif elementToDelete.right is None:
         if parent.content > elementToDelete.content:
             parent.left = elementToDelete.left
         if parent.content < elementToDelete.content:
             parent.right = elementToDelete.left
+
     elif elementToDelete.right is not None and (elementToDelete.left is not None):
         indices = index_tree(elementToDelete.right)
         successorIndex = get_next_index(indices, elementToDelete.content)
